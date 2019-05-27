@@ -1,13 +1,12 @@
-# mp-feed
+# mpvue-feed
 
 > A Mpvue scaffold project.
 
-# 安装依赖
 ```bash
+# 安装依赖
 npm install
-// or
+# or
 yarn
-```
 
 # 开发时构建
 npm dev
