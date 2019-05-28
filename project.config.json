@@ -11,7 +11,7 @@
 	},
 	"miniprogramRoot": "dist/wx/",
 	"compileType": "miniprogram",
-	"appid": "touristappid",
+	"appid": "wx6d5cf35bba8f0dc9",
 	"projectname": "mp-feed",
 	"libVersion": "2.7.0",
 	"condition": {
