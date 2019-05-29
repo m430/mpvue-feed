@@ -1,4 +1,7 @@
 {
+  "usingComponents": {
+    "van-button": "/vant-weapp/dist/button/index"
+  },
   "pages": [
     "pages/index/index",
     "pages/counter/index",

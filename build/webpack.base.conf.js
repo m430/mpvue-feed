@@ -110,12 +110,13 @@ let baseWebpackConfig = {
     }),
     new MpvuePlugin(),
     new MpvueEntry(),
-    // new CopyWebpackPlugin([{
-    //   from: '**/*.json',
-    //   to: ''
-    // }], {
-    //   context: 'src/'
-    // }),
+    new CopyWebpackPlugin([
+      {
+        from: resolve('node_modules/vant-weapp/dist'),
+        to: resolve('dist/wx/vant-weapp/dist'),
+        ignore: ['.*']
+      }
+    ]),
     new CopyWebpackPlugin([
       {
         from: path.resolve(__dirname, '../static'),
